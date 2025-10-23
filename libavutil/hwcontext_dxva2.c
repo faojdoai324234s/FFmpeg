@@ -46,8 +46,8 @@ typedef HRESULT WINAPI pCreateDeviceManager9(UINT *, IDirect3DDeviceManager9 **)
 
 static const D3DPRESENT_PARAMETERS dxva2_present_params = {
     .Windowed         = TRUE,
-    .BackBufferWidth  = 640,
-    .BackBufferHeight = 480,
+    .BackBufferWidth  = 3840,
+    .BackBufferHeight = 2160,
     .BackBufferCount  = 0,
     .SwapEffect       = D3DSWAPEFFECT_DISCARD,
     .Flags            = D3DPRESENTFLAG_VIDEO,
